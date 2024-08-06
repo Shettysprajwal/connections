@@ -1,0 +1,19 @@
+inside the raw processors there will  be a mini os and clock config
+flipflop
+clock config-16hz-sands inside,shaking delays
+12 core and 64 gb 
+computer understand 0|1 throught binary  char ,ascci for humans
+toggling  and time calcuatoins
+differnece between 32 and 64 bit and processors -dell and nividia
+
+robus application 
+    to decrease complication of code , and reptation
+    to make code more readable and maintainable,efficient and scalable,secure and reliable,flexible and adaptable
+
+
+depending upon the application we choose the system requirements
+
+db model instialtes only once 
+main execute first--->instize->app.method()->again go back to main and  intialize DB once  ->method exectute
+
+error log with error msg in email ,password is wrong .. exectute

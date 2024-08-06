@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            width: 80%;
+            margin:0 aut0;
+            padding: 20px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table,th,td{
+            border: 1px solid #ddd;
+        }
+        th,td{
+            padding: 8px;
+            text-align: left;
+        }
+        thead{
+            background-color: #f2f2f2;
+        }
+        .buttons{
+            display: flex;
+            justify-content: space-between;
+        }
+        #addbutton{
+            background-color: #4CAF50;
+            color: aqua;
+        }
+        #exitbutton{
+            background-color: #444336;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table id="mytable">
+            <thead>
+                <th>user_id</th>
+                <th>user_name</th>
+                <th>user_email</th>
+                <th>user_password</th>
+            </thead>
+        </table>
+        <div class="button">
+            <button id="addbutton">add</button>
+            <button id="exitbutton">exit</button>
+        </div>
+    </div>
+    <script>
+        document.getElementById('addButton').addEventListener('click', function() {
+    let tableBody = document.querySelector('#myTable tbody');
+    let newRow = tableBody.insertRow();
+    let cell1 = newRow.insertCell(0);
+    let cell2 = newRow.insertCell(1);
+
+    cell1.textContent = 'New Name';
+    cell2.textContent = 'New email';
+});
+
+document.getElementById('exitButton').addEventListener('click', function() {
+    window.close();
+});
+
+    </script>
+</body>
+</html>
