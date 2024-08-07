@@ -1,0 +1,8 @@
+Flask-Cors	4.0.1	
+Flask-Ext	0.1	0.1
+Flask-MySQL	1.5.2	
+Flask-MySQLdb	2.0.0	
+PyMySQL	1.1.1	
+cryptography	43.0.0	
+flask	2.3.3	3.0.3
+mysql	0.0.3
